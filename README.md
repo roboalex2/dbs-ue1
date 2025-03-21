@@ -8,12 +8,12 @@ This project helps you spin up a **Microsoft SQL Server** instance using Docker 
 
 ### 1. Prerequisites
 - [Docker](https://www.docker.com/) installed and running on your machine
-- `docker-compose` installed
+- `docker compose` installed
 
 ### 2. Start the SQL Server
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 This will:
@@ -70,17 +70,13 @@ Replace `/path/in/container/ddl.sql` with the mounted path inside the container.
 To stop and remove the container:
 
 ```bash
-docker-compose down
+docker compose down
 ```
 
 To also remove the volume:
 
 ```bash
-docker-compose down -v
+docker compose down -v
 ```
 
 ---
-
-## 🧾 License
-
-Use freely for testing and development. No warranties implied.
